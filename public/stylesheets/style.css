@@ -35,3 +35,7 @@ button:hover {
   padding: 20px;
   
 }
+
+li {
+  list-style-type:circle;
+}
