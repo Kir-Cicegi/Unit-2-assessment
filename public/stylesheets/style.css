@@ -1,8 +1,37 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url('https://images.unsplash.com/photo-1578852612716-854e527abf2e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80');
+  background-size: cover;
+  width: 100vw;
+  height:100vh;
 }
 
 a {
   color: #00B7FF;
+}
+
+form {
+  display: inline;
+}
+
+button{
+  border-radius: 20px;
+  background-color: lightgray;
+  color: white;
+  padding: 5px;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: lightsalmon;
+}
+
+.container {
+  width: 40%;
+  height: 200px;
+  background-color: rgb(253, 253, 241);
+  /* This padding is for you Alex:)) */
+  padding: 20px;
+  
 }
